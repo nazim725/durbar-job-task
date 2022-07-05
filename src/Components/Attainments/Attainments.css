@@ -1,0 +1,5 @@
+.attainments {
+  display: flex !important;
+  justify-content: space-between;
+  margin: 40px 20px;
+}

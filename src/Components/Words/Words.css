@@ -1,0 +1,36 @@
+.progress.red .progress-bar {
+  border-color: #ee1429;
+}
+.progress.red .progress-right .progress-bar {
+  animation: loading-words 1s linear forwards 1.8s;
+}
+
+@keyframes loading-words {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+  }
+}
+.loading-words {
+  position: relative;
+}
+.progress-value-words {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: #efdfdf;
+  top: 26px;
+  left: 25px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.speaking-text {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 40px;
+}

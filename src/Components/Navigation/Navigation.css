@@ -1,0 +1,18 @@
+.navigation {
+  background-color: #2b0f81;
+  height: 90px !important;
+  color: beige;
+  font-weight: bold;
+}
+.status img{
+    padding: 10px 10px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+.nav img{
+    width: 40px;
+    height: 40px;
+}

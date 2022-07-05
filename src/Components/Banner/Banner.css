@@ -1,0 +1,8 @@
+.banner {
+  background: #f6f5fb;
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 20px;
+}
+

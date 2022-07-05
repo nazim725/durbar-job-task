@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Navigation from './Components/Navigation/Navigation'
+import Banner from './Components/Banner/Banner'
+import Attainments from './Components/Attainments/Attainments'
+import Navs from './Components/Navs/Navs'
+import Graph1 from './Components/Graph1/Graph1'
+import MultiLineChart from './Components/Graph1/Graph1'
+import Graph2 from './Components/Graph1/Chart'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation />
+      <Banner />
+      <Attainments />
+
+      <Navs />
+
+      <Graph1 />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

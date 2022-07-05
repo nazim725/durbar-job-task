@@ -1,0 +1,21 @@
+.card {
+  background: #f6f5fb;
+  border: none;
+}
+.card-img {
+  position: relative;
+}
+.bar-img {
+  position: absolute;
+  margin-top: 70px;
+}
+.card-info {
+  text-align: start;
+  margin-left: -20px;
+}
+.card-button p {
+  width: 60px;
+  height: 30px;
+  background: #0a70f5;
+  color: aliceblue;
+}
