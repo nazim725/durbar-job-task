@@ -1,0 +1,43 @@
+
+
+.area-chart {
+  position: relative;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 30px;
+}
+.area-chart-info{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+.area-chart-info h5{
+   color: #AEB0C7;
+   font-size: 28px;
+}
+
+.number p{
+    margin-left: 10px;
+    background: #0a9605;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 6px;
+    margin-top: 3px;
+   
+    
+}
+i{
+    font-size: 10px;
+    margin-top: 4px;
+}
+.number h2{
+    color: #403B59;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width:768px) {
+    .area-chart {
+        margin-left: 10px;
+      }
+}

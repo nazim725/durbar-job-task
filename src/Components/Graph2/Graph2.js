@@ -1,11 +1,15 @@
 import React, { useState } from 'react'
 import ReactApexChart from 'react-apexcharts'
-import './Graph3.css'
-
+import './Graph2.css'
 const apexData = {
   series: [
     {
-      data: [31, 34, 28, 24, 42, 60, 64],
+      name: 'series1',
+      data: [31, 40, 28, 51, 42, 109, 126],
+    },
+    {
+      name: '',
+      data: [],
     },
   ],
   options: {
@@ -17,9 +21,8 @@ const apexData = {
       enabled: false,
     },
     fill: {
-      colors: '#EE1429',
+      colors: ['#00FF00', '#008000', ' #ABEBC6'],
     },
-
     tooltip: {
       x: {
         format: 'dd/MM/yy HH:mm',
@@ -28,17 +31,17 @@ const apexData = {
   },
 }
 
-const AreaChart2 = () => {
+const AreaChart = () => {
   const [state, setState] = useState(apexData)
 
   return (
-    <div className="area-chart mt-4">
+    <div className="area-chart">
       <div className="area-chart-info">
-        <h5>Words not Pronounced</h5>
+        <h5>Words Pronounced</h5>
         <div className="number d-flex">
-          <h2>24</h2>
-          <p id="number-down">
-            -3 <i class="ri-arrow-down-s-fill"></i>
+          <h2>126</h2>
+          <p>
+            +5 <i class="ri-arrow-up-s-fill"></i>
           </p>
         </div>
       </div>
@@ -52,4 +55,4 @@ const AreaChart2 = () => {
   )
 }
 
-export default AreaChart2
+export default AreaChart

@@ -1,0 +1,10 @@
+.graph {
+  margin-top: 70px;
+  margin-left: 100px;
+  padding-bottom: 60px;
+}
+@media screen and (max-width: 768px) {
+  .graph {
+    margin-left: 10px;
+  }
+}

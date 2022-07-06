@@ -1,18 +1,24 @@
 import React from 'react'
 import './Count.css'
 import CountUp from 'react-countup'
+import bg from '../../images/Oval5.png'
 
 const Count = () => {
   return (
-    <div style={{background:"#fff" ,height:'200px', width:'200px'}}>
+    <div className="counter">
       <div className="count">
-        <p className="pt-4">Words</p>
-        <h1>
-          <CountUp end={150} duration={16} /> ++
-        </h1>
+        <h4>Words</h4>
+        <h2 >
+          <CountUp end={150} duration={16} />
+        </h2>
       </div>
-      <div>
-        <p className="text-start ms-3 mt-4">To the next, level</p>
+      <div className="count-info">
+        <p className="text-start text-center mt-4 pb-5">
+          To the next, level{' '}
+          <span>
+            1028
+          </span>
+        </p>
       </div>
     </div>
   )

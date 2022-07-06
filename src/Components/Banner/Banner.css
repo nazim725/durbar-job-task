@@ -1,8 +1,26 @@
 .banner {
   background: #f6f5fb;
   padding-top: 60px;
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-column-gap: 20px;
 }
 
+.spinner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  margin-left: 40px;
+  
+}
+.banner-card {
+  margin-left: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .spinner {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 20px;
+    margin-left: 20px;
+  }
+  .banner-card {
+    margin-left: 5px;
+  }
+}

@@ -28,7 +28,7 @@ const Grammar = () => {
             <div class="progress-value-grammar">
               <p
                 className="progress-parcentage-grammar"
-                style={{ color: '#0FBF39',marginTop:'-30px',fontWeight:'bold' }}
+                style={{ color: '#0A70F5',marginTop:"-24px", fontWeight:'bold',fontSize:'20px' }}
               >
                 0%
               </p>

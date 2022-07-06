@@ -1,1 +1,8 @@
-
+.navs{
+    margin-left: -20px;
+}
+@media screen and (max-width: 768px) {
+  .navs {
+    display: block !important;
+  }
+}

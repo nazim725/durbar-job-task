@@ -9,10 +9,20 @@ import './Banner.css'
 const Banner = () => {
   return (
     <div className="banner">
-      <Card />
-      <Speaking />
-      <Grammar />
-      <Words />
+      <Row>
+        <Col md={5}>
+          <div className="banner-card">
+            <Card />
+          </div>
+        </Col>
+        <Col md={7}>
+          <div className="spinner">
+            <Speaking />
+            <Grammar />
+            <Words />
+          </div>
+        </Col>
+      </Row>
     </div>
   )
 }

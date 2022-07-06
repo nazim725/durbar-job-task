@@ -1,6 +1,50 @@
-.count {
+.counter {
+  background: #fff;
+  height: 450px;
+  width: 200px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 30px;
+}
+.counter .count {
   height: 150px;
   width: 150px;
+  position: absolute;
+  top: 70px;
+  border: 2px solid gray;
+  padding-top: 50px;
+  left: 26px;
   border-radius: 100%;
-  background: rgb(188, 180, 180);
+}
+.count h4 {
+  margin-left: 40px;
+}
+.count h2 {
+  margin-left: 48px;
+}
+.count-info {
+  position: absolute;
+  top: 250px;
+  left: 20px;
+}
+.count-info span {
+  background: gainsboro;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+@media screen and (max-width:768px) {
+  .counter {
+
+    width: 45vh;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .counter .count {
+    left: 90px;
+  }
+  .count-info {
+    left: 80px;
+  }
 }

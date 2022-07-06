@@ -28,11 +28,7 @@ const Words = () => {
             <div class="progress-value-words">
               <p
                 className="progress-parcentage-words"
-                style={{
-                  color: '#0FBF39',
-                  marginTop: '-30px',
-                  fontWeight: 'bold',
-                }}
+                style={{ color: '#EE1429',marginTop:"-24px", fontWeight:'bold',fontSize:'20px' }}
               >
                 0%
               </p>

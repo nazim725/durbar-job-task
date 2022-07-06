@@ -5,20 +5,16 @@ import Navigation from './Components/Navigation/Navigation'
 import Banner from './Components/Banner/Banner'
 import Attainments from './Components/Attainments/Attainments'
 import Navs from './Components/Navs/Navs'
-import Graph1 from './Components/Graph1/Graph1'
-import MultiLineChart from './Components/Graph1/Graph1'
-import Graph2 from './Components/Graph1/Chart'
+import Graph from './Components/Graph/Graph'
+import { useState } from 'react'
 
 function App() {
+  const [active, setActive] = useState('today')
   return (
-    <div className="App">
+    <div style={{ background: '#f6f5fb' }}>
       <Navigation />
       <Banner />
-      <Attainments />
-
-      <Navs />
-
-      <Graph1 />
+      <Attainments active={active} setActive={setActive} />
     </div>
   )
 }

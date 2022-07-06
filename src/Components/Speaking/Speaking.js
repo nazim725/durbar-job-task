@@ -15,7 +15,7 @@ const Speaking = () => {
     }, 80)
   }, [])
   return (
-    <div class="container ms-5">
+    <div class="container ">
       <div class="row">
         <div class="col-md-3 col-sm-6 loading">
           <div class="progress blue">
@@ -28,8 +28,8 @@ const Speaking = () => {
           </div>
           <div class="progress-value">
             <p
-              className="progress-parcentage fw-bold"
-              style={{ color: '#0FBF39',marginTop:'30px',fontWeight:'bold' }}
+              className="progress-parcentage"
+              style={{ color: '#0FBF39',marginTop:'30px',fontWeight:'bold',fontSize:'20px'  }}
             >
               0%
             </p>

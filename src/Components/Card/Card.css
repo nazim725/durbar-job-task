@@ -2,6 +2,7 @@
   background: #f6f5fb;
   border: none;
 }
+
 .card-img {
   position: relative;
 }
@@ -18,4 +19,24 @@
   height: 30px;
   background: #0a70f5;
   color: aliceblue;
+}
+.profile-img{
+  width: 160px;
+}
+
+@media screen and (max-width:768px) {
+  .profile-img{
+    width: 100px;
+  }
+  .bar-img {
+    margin-top: 40px;
+    left: -10px;
+  }
+  .card-button p{
+    width: 40px;
+  }
+  .card-info {
+    text-align: start;
+   
+  }
 }
