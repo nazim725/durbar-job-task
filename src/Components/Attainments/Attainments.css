@@ -1,7 +1,7 @@
 .attainments {
   display: flex !important;
   justify-content: space-between;
-  margin: 40px 80px;
+  margin: 20px  80px 0px 80px;
 }
 
 .active-class {

@@ -1,5 +1,14 @@
-.navs{
-    margin-left: -20px;
+.navs {
+  margin-left: -20px;
+}
+.inner-nav {
+  background-color: #f1ecec5c !important;
+}
+.nav-link {
+  margin-left: 10px !important;
+}
+.nav-link:hover {
+  background: #fff;
 }
 @media screen and (max-width: 768px) {
   .navs {

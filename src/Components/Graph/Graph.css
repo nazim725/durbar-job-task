@@ -1,10 +1,16 @@
 .graph {
-  margin-top: 70px;
-  margin-left: 100px;
-  padding-bottom: 60px;
+  margin-left: 80px;
+  margin-right: 70px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(#ffffff, #e9eaf1);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  margin-bottom: 50px;
+
 }
+
 @media screen and (max-width: 768px) {
   .graph {
     margin-left: 10px;
+    margin-right: 10px;
   }
 }

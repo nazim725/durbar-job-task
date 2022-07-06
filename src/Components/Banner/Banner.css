@@ -1,6 +1,7 @@
 .banner {
   background: #f6f5fb;
   padding-top: 60px;
+  background-size: 70%;
 }
 
 .spinner {
@@ -8,7 +9,6 @@
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 20px;
   margin-left: 40px;
-  
 }
 .banner-card {
   margin-left: 60px;

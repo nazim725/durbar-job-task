@@ -11,7 +11,7 @@ import { useState } from 'react'
 function App() {
   const [active, setActive] = useState('today')
   return (
-    <div style={{ background: '#f6f5fb' }}>
+    <div style={{ background: '#f6f5fb' ,paddingBottom:'40px'}}>
       <Navigation />
       <Banner />
       <Attainments active={active} setActive={setActive} />

@@ -23,7 +23,9 @@
 .profile-img{
   width: 160px;
 }
-
+.card-extra-info{
+  margin-left: 20px;
+}
 @media screen and (max-width:768px) {
   .profile-img{
     width: 100px;

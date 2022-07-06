@@ -11,18 +11,20 @@ const Graph = () => {
   return (
     <div className="graph">
       <Navs />
-      <Row className="mt-4">
-        <Col md={4}>
-          <LineChart />
-        </Col>
-        <Col md={5}>
-          <AreaChart />
-          <AreaChart2 />
-        </Col>
-        <Col md={3}>
-          <Count />
-        </Col>
-      </Row>
+      <div className="graph-body">
+        <Row className="mt-4">
+          <Col md={4}>
+            <LineChart />
+          </Col>
+          <Col md={5}>
+            <AreaChart />
+            <AreaChart2 />
+          </Col>
+          <Col md={3}>
+            <Count />
+          </Col>
+        </Row>
+      </div>
     </div>
   )
 }

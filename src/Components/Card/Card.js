@@ -32,14 +32,14 @@ const Card = () => {
           </div>
         </Col>
       </Row>
-      <Row className="">
-        <div className='text-start mt-5 ms-4'>
+      <Row className="card-extra-info">
+        <div className='text-start mt-5'>
             <p>Longest Study Session</p>
             <p className="text-primary">4 hours 26 min</p>
         </div>
       </Row>
-      <Row className="">
-        <div className='text-start mt-2 ms-4'>
+      <Row className="card-extra-info">
+        <div className='text-start mt-2'>
             <p>Longest Study Streak</p>
             <p className="text-primary">12 days</p>
         </div>
