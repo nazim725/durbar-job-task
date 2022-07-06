@@ -28,7 +28,7 @@ const Card = () => {
         </Col>
         <Col md={2} xs={2}>
           <div className="card-button mt-4">
-            <p>$42,5</p>
+            <p className="text-center p-1 fw-bold">$42,5</p>
           </div>
         </Col>
       </Row>

@@ -11,21 +11,25 @@
   width: 150px;
   position: absolute;
   top: 70px;
-  border: 2px solid gray;
+  border: 1px solid gray;
   padding-top: 50px;
   left: 26px;
   border-radius: 100%;
+  position: relative;
 }
 .count h4 {
   margin-left: 40px;
+  color: #aeb0c7;
 }
 .count h2 {
   margin-left: 48px;
+  color: #1375f5;
 }
 .count-info {
   position: absolute;
   top: 250px;
   left: 20px;
+  color: #aeb0c7;
 }
 .count-info span {
   background: gainsboro;
@@ -33,9 +37,20 @@
   padding: 3px 8px;
   border-radius: 3px;
 }
-@media screen and (max-width:768px) {
-  .counter {
 
+.count-number {
+  position: absolute;
+  background: #1375f5;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  text-align: center;
+  font-weight: 600;
+  color: aliceblue;
+  top: 20px;
+}
+@media screen and (max-width: 768px) {
+  .counter {
     width: 45vh;
     margin-left: 10px;
     margin-right: 20px;

@@ -4,13 +4,10 @@ import './Graph2.css'
 const apexData = {
   series: [
     {
-      name: 'series1',
+   
       data: [31, 40, 28, 51, 42, 109, 126],
     },
-    {
-      name: '',
-      data: [],
-    },
+   
   ],
   options: {
     chart: {

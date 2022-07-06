@@ -11,6 +11,9 @@ const Count = () => {
         <h2 >
           <CountUp end={150} duration={16} />
         </h2>
+        <div className="count-number">
+          3
+        </div>
       </div>
       <div className="count-info">
         <p className="text-start text-center mt-4 pb-5">
