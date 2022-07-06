@@ -11,15 +11,15 @@ const Navs = () => {
     <div>
       <Row>
         <Col md="6" sm={12}>
-          <Nav variant="tabs" defaultActiveKey="/home" className="navs">
+          <Nav variant="tabs" defaultActiveKey="/link-2" className="navs">
             <Nav.Item>
               <Nav.Link className="nav-link" href="/home"> <img src={p1} alt="" /> Know Words</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="nav-link" eventKey="link-1"> <img src={p2} alt="" /> Know Grammar</Nav.Link>
+              <Nav.Link className="nav-link" href="/link-1"> <img src={p2} alt="" /> Know Grammar</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="nav-link" eventKey="link-1"> <img src={p2} alt="" /> Speech</Nav.Link>
+              <Nav.Link className="nav-link" href="/link-2"> <img src={p2} alt="" /> Speech</Nav.Link>
             </Nav.Item>
           </Nav>
         </Col>
